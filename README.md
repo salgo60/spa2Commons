@@ -4,3 +4,4 @@ find scanned pictures in [SPA](https://portrattarkiv.se/about) and upload on Wik
 
 ## Issues ##
 1. need to be in the whitelist for uploading see [T290581](https://phabricator.wikimedia.org/T290581)
+  1. looks this is the way forward [Commons:Upload_tools/wgCopyUploadsDomains](https://commons.wikimedia.org/wiki/Commons:Upload_tools/wgCopyUploadsDomains)
