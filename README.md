@@ -1,6 +1,7 @@
 # spa2Commons
 find scanned pictures in [SPA](https://portrattarkiv.se/about) and upload on Wikicommons based on https://github.com/kaldari/iNaturalist2Commons 
-* current in development see [User:Salgo60/spa2commons.js](https://commons.wikimedia.org/wiki/User:Salgo60/spa2commons.js) see [video](https://youtu.be/aCPzWF0aYmw)
+* current in development see [User:Salgo60/spa2commons.js](https://commons.wikimedia.org/wiki/User:Salgo60/spa2commons.js) 
+* see also [video](https://youtu.be/aCPzWF0aYmw)
 
 ![](https://github.com/salgo60/spa2Commons/blob/main/image/spa2commons_image1.png)
 
