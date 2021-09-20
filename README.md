@@ -2,6 +2,8 @@
 find scanned pictures in [SPA](https://portrattarkiv.se/about) and upload on Wikicommons based on https://github.com/kaldari/iNaturalist2Commons 
 * current in development see [User:Salgo60/spa2commons.js](https://commons.wikimedia.org/wiki/User:Salgo60/spa2commons.js)
 
+![](https://github.com/salgo60/spa2Commons/blob/main/image/spa2commons_image1.png)
+
 ## Todo ##
 
 * [X] need to be in the whitelist for uploading see [T290581](https://phabricator.wikimedia.org/T290581)
