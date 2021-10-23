@@ -1,7 +1,7 @@
 # spa2Commons
 find scanned pictures in [SPA](https://portrattarkiv.se/about) and upload on Wikicommons script based on https://github.com/kaldari/iNaturalist2Commons 
 * current in development see [User:Salgo60/spa2commons.js](https://commons.wikimedia.org/wiki/User:Salgo60/spa2commons.js) 
-* see also [video](https://youtu.be/aCPzWF0aYmw) (english) / [swedish](https://www.youtube.com/watch?v=dQuoJOC3eSY)
+* see also [video](https://youtu.be/aCPzWF0aYmw) (english) / [swedish](https://www.youtube.com/watch?v=dQuoJOC3eSY) [swedish video2](https://www.youtube.com/watch?v=8hngWUoNXhE)
 
 ![](https://github.com/salgo60/spa2Commons/blob/main/image/spa2commons_image1.png)
 
@@ -11,8 +11,9 @@ find scanned pictures in [SPA](https://portrattarkiv.se/about) and upload on Wik
 
 * [X] need to be in the whitelist for uploading see [T290581](https://phabricator.wikimedia.org/T290581)
    * [X] looks this is the way forward [Commons:Upload_tools/wgCopyUploadsDomains](https://commons.wikimedia.org/wiki/Commons:Upload_tools/wgCopyUploadsDomains)
-* [ ] do a simple search from a Wikicommons category page, display a list of picture, select one, get proposed metadata
-  * [ ] add structured data to Wikicommons as autinatc as possible
+* [X] get test pilots
+  * [X] announce it in Bybrunnen
+* [ ] add structured data to Wikicommons as autinatc as possible
 * [ ] from Wikidata 
   * [ ] do a search in SPA
   * [ ] find pictures related to the current Wikidataobject
