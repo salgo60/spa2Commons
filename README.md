@@ -6,6 +6,7 @@ find scanned pictures in [SPA](https://portrattarkiv.se/about) and upload on Wik
 ![](https://github.com/salgo60/spa2Commons/blob/main/image/spa2commons_image1.png)
 
 ## More ##
+* video in english [how the API works](https://youtu.be/z9RQqvuwT_g) 
 * use [Wikidata:Entity_Explosion](https://www.wikidata.org/wiki/Wikidata:Entity_Explosion) to better see API etc. see [video](https://www.youtube.com/watch?v=D4MB6xX6Mig&feature=youtu.be) 
 * video use [Wikidata/FamilyTree](https://youtu.be/mtRW3qkjaOw) se [mallen](https://www.wikidata.org/wiki/Template:Wikidata/FamilyTree)
 # Todo #
