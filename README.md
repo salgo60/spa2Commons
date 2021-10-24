@@ -1,7 +1,7 @@
 # spa2Commons
 find scanned pictures in [SPA](https://portrattarkiv.se/about) and upload on Wikicommons script based on https://github.com/kaldari/iNaturalist2Commons 
 * current in development see [User:Salgo60/spa2commons.js](https://commons.wikimedia.org/wiki/User:Salgo60/spa2commons.js) 
-  * more than [2500 pictures uploaded](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons)
+  * more than [2500 pictures uploaded](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons) / [sorted](https://petscan.wmflabs.org/?psid=20485153)
 * see also [video](https://youtu.be/aCPzWF0aYmw) (english) / [swedish](https://www.youtube.com/watch?v=dQuoJOC3eSY) [swedish video2](https://www.youtube.com/watch?v=8hngWUoNXhE)
 
 ![](https://github.com/salgo60/spa2Commons/blob/main/image/spa2commons_image1.png)
