@@ -33,7 +33,7 @@ some pictures in SPA have same as Wikipedia. We use the API to find those pictur
 * [X] need to be in the whitelist for uploading see [T290581](https://phabricator.wikimedia.org/T290581)
    * [X] looks this is the way forward [Commons:Upload_tools/wgCopyUploadsDomains](https://commons.wikimedia.org/wiki/Commons:Upload_tools/wgCopyUploadsDomains)
 * [X] get test pilots
-  * [X] announce it in Bybrunnen
+  * [X] announce it on [sv;Wikipedia Bybrunnen](https://sv.wikipedia.org/wiki/Wikipedia:Bybrunnen#Enklare_h%C3%A4mta_bilder_till_Wikicommons_p%C3%A5_personer_f%C3%B6dda_p%C3%A5_1800-talet_fr%C3%A5n_Svenskt_Portr%C3%A4ttarkiv_(SPA))
 * [ ] add structured data to Wikicommons as autinatc as possible
 * [ ] from Wikidata 
   * [ ] do a search in SPA
