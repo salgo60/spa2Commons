@@ -13,14 +13,14 @@ javascript that find scanned pictures in [SPA](https://portrattarkiv.se/about) a
     * folder with [uploaded pictures]()
 > importScript( 'User:Salgo60/spa2commons3.js' );  
 
+![](https://github.com/salgo60/spa2Commons/blob/main/image/spa2commons_image1.png)
+
 # Notebooks
 * Using Notebooks and SPARQL to find objects in Wikidata and check if we have good candidates in SPA
  * example Notebooks see folder [Notebook](https://github.com/salgo60/spa2Commons/tree/main/Notebook)
 # Find SPA same as Wikipedia
 some pictures in SPA have same as Wikipedia. We use the API to find those pictures and checks if in Wikidata [Property:P4819](https://www.wikidata.org/wiki/Property:P4819) is set see [list of Wikidata persons with Property:P4819 set but no pictures](https://sv.wikipedia.org/wiki/Anv%C3%A4ndare:Salgo60/Listeria/SvensktPortr%C3%A4ttarkiv/utanbild)
   * limitations is we can just retrieve 10 000 records from SPA 
-
-![](https://github.com/salgo60/spa2Commons/blob/main/image/spa2commons_image1.png)
 
 ## More ##
 * video in english [how the API works](https://youtu.be/z9RQqvuwT_g) 
