@@ -18,6 +18,12 @@ javascript that find scanned pictures in [SPA](https://portrattarkiv.se/about) a
 # Notebooks
 * Using Notebooks and SPARQL to find objects in Wikidata and check if we have good candidates in SPA
  * example Notebooks see folder [Notebook](https://github.com/salgo60/spa2Commons/tree/main/Notebook)
+ * SPARQL examples
+   * find all people on the Northern cemetery missing SPA [Property:P4819](https://www.wikidata.org/wiki/Property:P4819) [SPARQL](https://w.wiki/4H7d) / [Notebook](https://github.com/salgo60/spa2Commons/blob/main/Notebook/SPA%20test.ipynb)
+   * find people connected to the Litteraturbank missing SPA [Property:P4819](https://www.wikidata.org/wiki/Property:P4819) [SPARQL](https://w.wiki/4H7h) / [Notebook](https://github.com/salgo60/spa2Commons/blob/main/Notebook/SPA%20Litteraturbanken.ipynb)
+   * find all people related to [Q20720200 --> defaultView:Graph](https://w.wiki/4GNX) , I change this query and filter it for beeing used with SPA
+      *  -> get but just people related to Sweden and born < 1880 se [SPARQL](https://w.wiki/4H7a), [Notebook](https://github.com/salgo60/spa2Commons/blob/main/Notebook/SPA%20Johan%20Emanuel%20Wikstr%C3%B6m.ipynb)
+   *   
 # Find SPA same as Wikipedia
 some pictures in SPA have same as Wikipedia. We use the API to find those pictures and checks if in Wikidata [Property:P4819](https://www.wikidata.org/wiki/Property:P4819) is set see [list of Wikidata persons with Property:P4819 set but no pictures](https://sv.wikipedia.org/wiki/Anv%C3%A4ndare:Salgo60/Listeria/SvensktPortr%C3%A4ttarkiv/utanbild)
   * limitations is we can just retrieve 10 000 records from SPA 
