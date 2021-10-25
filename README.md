@@ -15,7 +15,7 @@ javascript that find scanned pictures in [SPA](https://portrattarkiv.se/about) a
 > importScript( 'User:Salgo60/spa2commons3.js' );  
 
 ![](https://github.com/salgo60/spa2Commons/blob/main/image/spa2commons_image1.png)
-
+* [video in Swedish uploading data](https://www.youtube.com/watch?v=1MVvSvLjAOk)
 # Notebooks
 * Using Notebooks and SPARQL to find objects in Wikidata and check if we have good candidates in SPA
  * example Notebooks see folder [Notebook](https://github.com/salgo60/spa2Commons/tree/main/Notebook)
