@@ -1,5 +1,5 @@
 # SPA Wikidata
-* SPA has 2 API:s get [latest](https://portrattarkiv.se/endpoints/latest.php) and [search](https://portrattarkiv.se/endpoints/search.php)
+* SPA has 2 API:s get [latest](https://portrattarkiv.se/endpoints/latest.php) and [search](https://portrattarkiv.se/endpoints/search.php) but no documentation
 * spa2commons is a javascript running in Wikicommons to make it easy to find pictures in SPA and upload them to Wikicommons 
   * more than [2500 pictures uploaded first weeks](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons) / [sorted](https://petscan.wmflabs.org/?psid=20485153)
   * see also [video](https://youtu.be/aCPzWF0aYmw) (english) / [swedish](https://www.youtube.com/watch?v=dQuoJOC3eSY) [swedish video2](https://www.youtube.com/watch?v=8hngWUoNXhE)
