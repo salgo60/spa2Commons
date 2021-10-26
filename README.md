@@ -10,7 +10,7 @@
 # spa2Commons
 javascript that find scanned pictures in [SPA](https://portrattarkiv.se/about) and upload it to Wikicommons. The script is based on https://github.com/kaldari/iNaturalist2Commons 
 * javascript **spa2Commons3** current in development see [User:Salgo60/spa2commons3.js](https://commons.wikimedia.org/wiki/User:Salgo60/spa2commons3.js) 
-  * install it in your [Special:MyPage/common.js](https://commons.wikimedia.org/wiki/Special:MyPage/common.js) on Wikicommons see my [common,js](https://commons.wikimedia.org/wiki/User:Salgo60/common.js) 
+  * install it in your [Special:MyPage/common.js](https://commons.wikimedia.org/wiki/Special:MyPage/common.js) on Wikicommons see my [common,js](https://commons.wikimedia.org/wiki/User:Salgo60/common.js) add the following line
 > importScript( 'User:Salgo60/spa2commons3.js' );  
 
 ![](https://github.com/salgo60/spa2Commons/blob/main/image/spa2commons_image1.png)
