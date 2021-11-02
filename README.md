@@ -1,7 +1,7 @@
 # SPA Wikidata
 * SPA has 2 API:s get [latest](https://portrattarkiv.se/endpoints/latest.php) and [search](https://portrattarkiv.se/endpoints/search.php) but no documentation
 * spa2commons is a javascript running in Wikicommons to make it easy to find pictures in SPA and upload them to Wikicommons 
-  * more than [2500 pictures uploaded first weeks](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons) / [sorted](https://petscan.wmflabs.org/?psid=20485153)
+  * more than [4000 pictures uploaded first weeks](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons) / [sorted](https://petscan.wmflabs.org/?psid=20485153)
      * [candidates for uploading pictures](https://sv.wikipedia.org/wiki/Anv%C3%A4ndare:Salgo60/Listeria/SvensktPortr%C3%A4ttarkiv/utanbild)  
   * see also [video](https://youtu.be/aCPzWF0aYmw) (english) / [swedish](https://www.youtube.com/watch?v=dQuoJOC3eSY) [swedish video2](https://www.youtube.com/watch?v=8hngWUoNXhE)
 * notebooks are used to check if people in Wikidata on e.g. a cemetery has good candidates in SPA
@@ -23,7 +23,12 @@ javascript that find scanned pictures in [SPA](https://portrattarkiv.se/about) a
    * find people connected to the Litteraturbank missing SPA [Property:P4819](https://www.wikidata.org/wiki/Property:P4819) [SPARQL](https://w.wiki/4H7h) / [Notebook](https://github.com/salgo60/spa2Commons/blob/main/Notebook/SPA%20Litteraturbanken.ipynb)
    * find all people related to [Q20720200 --> defaultView:Graph](https://w.wiki/4GNX) , I change this query and filter it for beeing used with SPA
       *  -> get but just people related to Sweden and born < 1880 se [SPARQL](https://w.wiki/4H7a), [Notebook](https://github.com/salgo60/spa2Commons/blob/main/Notebook/SPA%20Johan%20Emanuel%20Wikstr%C3%B6m.ipynb)
-   *   
+## PAWS
+Beacuse the environment is set up I have used PAWS for
+* [Traverse category to find SPA id](https://public.paws.wmcloud.org/User:Salgo60/Traverse%20category%20to%20find%20SPA%20id%20.ipynb)
+  * quick and dirty that checks all files in [categoryspa2commons](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons) and check for the spource partameter point at SPA --> a csv file is created that is used in Open Refine to create a quickstatement file to set SDC in Wikicommons
+* xxxx
+  *  quick and dirty: finds files in [categoryspa2commons](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons] and check for categories connected to Wikidata --> that the picture depicts that WD object --> a csv file is created -> a Quickstatement file is created using Open Refine   
 # Find SPA same as Wikipedia
 some pictures in SPA have same as Wikipedia. We use the API to find those pictures and checks if in Wikidata [Property:P4819](https://www.wikidata.org/wiki/Property:P4819) is set see [list of Wikidata persons with Property:P4819 set but no pictures](https://sv.wikipedia.org/wiki/Anv%C3%A4ndare:Salgo60/Listeria/SvensktPortr%C3%A4ttarkiv/utanbild)
   * limitations is we can just retrieve 10 000 records from SPA 
