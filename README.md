@@ -23,8 +23,9 @@ javascript that find scanned pictures in [SPA](https://portrattarkiv.se/about) a
    * find people connected to the Litteraturbank missing SPA [Property:P4819](https://www.wikidata.org/wiki/Property:P4819) [SPARQL](https://w.wiki/4H7h) / [Notebook](https://github.com/salgo60/spa2Commons/blob/main/Notebook/SPA%20Litteraturbanken.ipynb)
    * find all people related to [Q20720200 --> defaultView:Graph](https://w.wiki/4GNX) , I change this query and filter it for beeing used with SPA
       *  -> get but just people related to Sweden and born < 1880 se [SPARQL](https://w.wiki/4H7a), [Notebook](https://github.com/salgo60/spa2Commons/blob/main/Notebook/SPA%20Johan%20Emanuel%20Wikstr%C3%B6m.ipynb)
-## PAWS Notebooks et all
-Beacuse the environment is set up I have used PAWS for
+   * [SDC_set_from_SPACategories](https://github.com/salgo60/spa2Commons/blob/main/Notebook/SDC_set_from_SPACategories.ipynb) - Notebook that creates a csv file containing depicts for a picture. This csv is loaded to Openrefine and a Quickstatement fil is created that updates Wikicommons. Example csv file [SPACategories_Mid_WD.txt](https://github.com/salgo60/spa2Commons/blob/main/Notebook/SPACategories_Mid_WD.txt)
+### PAWS Notebooks et all
+Because the environment is set up I have used PAWS for
 * [Traverse category to find SPA id](https://public.paws.wmcloud.org/User:Salgo60/Traverse%20category%20to%20find%20SPA%20id%20.ipynb)
   * quick and dirty that checks all files in [categoryspa2commons](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons) and check for the spource partameter point at SPA --> a csv file is created that is used in Open Refine to create a quickstatement file to set SDC in Wikicommons
 * xxxx
