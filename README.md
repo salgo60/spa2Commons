@@ -48,7 +48,7 @@ some pictures in SPA have same as Wikipedia. We use the API to find those pictur
 * video in english [how the API works](https://youtu.be/z9RQqvuwT_g) 
 * use [Wikidata:Entity_Explosion](https://www.wikidata.org/wiki/Wikidata:Entity_Explosion) to better see API etc. see [video](https://www.youtube.com/watch?v=D4MB6xX6Mig&feature=youtu.be) 
 * video use [Wikidata/FamilyTree](https://youtu.be/mtRW3qkjaOw) se [mallen](https://www.wikidata.org/wiki/Template:Wikidata/FamilyTree)
-* [https://mix-n-match.toolforge.org/#/catalog/4837 Mix-and Match 4837] - catalog for m atchiung SPA with Wikidata 
+* [Mix-and Match 4837](https://mix-n-match.toolforge.org/#/catalog/4837 ) - catalog for m atchiung SPA with Wikidata 
 # Todo #
 
 * [X] need to be in the whitelist for uploading see [T290581](https://phabricator.wikimedia.org/T290581)
