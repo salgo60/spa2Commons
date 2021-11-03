@@ -32,9 +32,10 @@ Because the environment is set up I have used PAWS for
   *  quick and dirty: finds files in [categoryspa2commons](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons) and check for categories connected to Wikidata --> that the picture depicts that WD object --> a csv file is created -> a Quickstatement file is created using Open Refine   
 ## Dataroundtriping
 * TBD SPA -> Wikidata
-* TBD Wikidata -> SPA
+  *  we have a restriction n retrieving 10 000 objects see  
+* Wikidata -> SPA
   * Find files in WIkicommons with SPA set and depicts Wikidata object
-     * 2021-11-03 [1436 files](https://wcqs-beta.wmflabs.org/embed.html#SELECT%20%3Fitem%20%3FSPAid%20%3FdepictsWD%20%3FitemLabel%20%3FSPA%20%3FdepictsWDLabel%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP4819%20%3FSPAid.%0A%20%20OPTIONAL%20%7B%3Fitem%20wdt%3AP180%20%3FdepictsWD%7D%0A%20%20BIND%28URI%28CONCAT%28%22https%3A%2F%2Fportrattarkiv.se%2Fdetails%2F%22%2C%3FSPAid%29%29%20AS%20%3FSPA%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%7D%0A%7D%20order%20by%20%3FitemLabel), SPA and WD depict [1010 files](https://wcqs-beta.wmflabs.org/embed.html#SELECT%20%3Fitem%20%3FSPAid%20%3FdepictsWD%20%3FitemLabel%20%3FSPA%20%3FdepictsWDLabel%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP4819%20%3FSPAid.%0A%20%20%3Fitem%20wdt%3AP180%20%3FdepictsWD.%0A%20%20BIND%28URI%28CONCAT%28%22https%3A%2F%2Fportrattarkiv.se%2Fdetails%2F%22%2C%3FSPAid%29%29%20AS%20%3FSPA%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%7D%0A%7D%20order%20by%20%3FitemLabel)
+     * 2021-11-03 [1436 files](https://wcqs-beta.wmflabs.org/embed.html#SELECT%20%3Fitem%20%3FSPAid%20%3FdepictsWD%20%3FitemLabel%20%3FSPA%20%3FdepictsWDLabel%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP4819%20%3FSPAid.%0A%20%20OPTIONAL%20%7B%3Fitem%20wdt%3AP180%20%3FdepictsWD%7D%0A%20%20BIND%28URI%28CONCAT%28%22https%3A%2F%2Fportrattarkiv.se%2Fdetails%2F%22%2C%3FSPAid%29%29%20AS%20%3FSPA%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%7D%0A%7D%20order%20by%20%3FitemLabel), SPA and WD depict [1010 files](https://wcqs-beta.wmflabs.org/embed.html#SELECT%20%3Fitem%20%3FSPAid%20%3FdepictsWD%20%3FitemLabel%20%3FSPA%20%3FdepictsWDLabel%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP4819%20%3FSPAid.%0A%20%20%3Fitem%20wdt%3AP180%20%3FdepictsWD.%0A%20%20BIND%28URI%28CONCAT%28%22https%3A%2F%2Fportrattarkiv.se%2Fdetails%2F%22%2C%3FSPAid%29%29%20AS%20%3FSPA%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%7D%0A%7D%20order%20by%20%3FitemLabel), Wikidata <-> SPA [5290 WD objects ](https://w.wiki/4L7x)
   * Wikicommons SDC solution is in Beta and updated weekly see [wlatest update](https://tinyurl.com/y4ncctxc) SPA and depicts = 
  
 # Find SPA same as Wikipedia
@@ -47,7 +48,7 @@ some pictures in SPA have same as Wikipedia. We use the API to find those pictur
 * video in english [how the API works](https://youtu.be/z9RQqvuwT_g) 
 * use [Wikidata:Entity_Explosion](https://www.wikidata.org/wiki/Wikidata:Entity_Explosion) to better see API etc. see [video](https://www.youtube.com/watch?v=D4MB6xX6Mig&feature=youtu.be) 
 * video use [Wikidata/FamilyTree](https://youtu.be/mtRW3qkjaOw) se [mallen](https://www.wikidata.org/wiki/Template:Wikidata/FamilyTree)
-
+* [https://mix-n-match.toolforge.org/#/catalog/4837 Mix-and Match 4837] - catalog for m atchiung SPA with Wikidata 
 # Todo #
 
 * [X] need to be in the whitelist for uploading see [T290581](https://phabricator.wikimedia.org/T290581)
