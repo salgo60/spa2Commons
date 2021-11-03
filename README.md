@@ -31,7 +31,7 @@ Beacuse the environment is set up I have used PAWS for
   *  quick and dirty: finds files in [categoryspa2commons](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons) and check for categories connected to Wikidata --> that the picture depicts that WD object --> a csv file is created -> a Quickstatement file is created using Open Refine   
 ## Domdataroundtriping
 * TBD SPA -> WIkidata
-* TBD Wolodata -> SPA
+* TBD Wikidata -> SPA
 # Find SPA same as Wikipedia
 some pictures in SPA have same as Wikipedia. We use the API to find those pictures and checks if in Wikidata [Property:P4819](https://www.wikidata.org/wiki/Property:P4819) is set see [list of Wikidata persons with Property:P4819 set but no pictures](https://sv.wikipedia.org/wiki/Anv%C3%A4ndare:Salgo60/Listeria/SvensktPortr%C3%A4ttarkiv/utanbild)
   * limitations is we can just retrieve 10 000 records from SPA 
