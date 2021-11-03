@@ -30,9 +30,13 @@ Because the environment is set up I have used PAWS for
   * quick and dirty that checks all files in [categoryspa2commons](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons) and check for the spource partameter point at SPA --> a csv file is created that is used in Open Refine to create a quickstatement file to set SDC in Wikicommons
 * xxxx
   *  quick and dirty: finds files in [categoryspa2commons](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons) and check for categories connected to Wikidata --> that the picture depicts that WD object --> a csv file is created -> a Quickstatement file is created using Open Refine   
-## Domdataroundtriping
-* TBD SPA -> WIkidata
+## Dataroundtriping
+* TBD SPA -> Wikidata
 * TBD Wikidata -> SPA
+  * Find files in WIkicommons with SPA set and depicts Wikidata object
+     * 2021-11-03 [1436 files](https://wcqs-beta.wmflabs.org/embed.html#SELECT%20%3Fitem%20%3FSPAid%20%3FdepictsWD%20%3FitemLabel%20%3FSPA%20%3FdepictsWDLabel%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP4819%20%3FSPAid.%0A%20%20OPTIONAL%20%7B%3Fitem%20wdt%3AP180%20%3FdepictsWD%7D%0A%20%20BIND%28URI%28CONCAT%28%22https%3A%2F%2Fportrattarkiv.se%2Fdetails%2F%22%2C%3FSPAid%29%29%20AS%20%3FSPA%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%7D%0A%7D%20order%20by%20%3FitemLabel), SPA and WD depict [1010 files](https://wcqs-beta.wmflabs.org/embed.html#SELECT%20%3Fitem%20%3FSPAid%20%3FdepictsWD%20%3FitemLabel%20%3FSPA%20%3FdepictsWDLabel%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP4819%20%3FSPAid.%0A%20%20%3Fitem%20wdt%3AP180%20%3FdepictsWD.%0A%20%20BIND%28URI%28CONCAT%28%22https%3A%2F%2Fportrattarkiv.se%2Fdetails%2F%22%2C%3FSPAid%29%29%20AS%20%3FSPA%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%7D%0A%7D%20order%20by%20%3FitemLabel)
+  * Wikicommons SDC solution is in Beta and updated weekly see [wlatest update](https://tinyurl.com/y4ncctxc) SPA and depicts = 
+ 
 # Find SPA same as Wikipedia
 some pictures in SPA have same as Wikipedia. We use the API to find those pictures and checks if in Wikidata [Property:P4819](https://www.wikidata.org/wiki/Property:P4819) is set see [list of Wikidata persons with Property:P4819 set but no pictures](https://sv.wikipedia.org/wiki/Anv%C3%A4ndare:Salgo60/Listeria/SvensktPortr%C3%A4ttarkiv/utanbild)
   * limitations is we can just retrieve 10 000 records from SPA 
