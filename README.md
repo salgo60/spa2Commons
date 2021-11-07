@@ -28,8 +28,6 @@ javascript that find scanned pictures in [SPA](https://portrattarkiv.se/about) a
 Because the environment is set up I have used PAWS for
 * [Traverse category to find SPA id](https://public.paws.wmcloud.org/User:Salgo60/Traverse%20category%20to%20find%20SPA%20id%20.ipynb)
   * quick and dirty that checks all files in [categoryspa2commons](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons) and check for the spource partameter point at SPA --> a csv file is created that is used in Open Refine to create a quickstatement file to set SDC in Wikicommons
-* xxxx
-  *  quick and dirty: finds files in [categoryspa2commons](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons) and check for categories connected to Wikidata --> that the picture depicts that WD object --> a csv file is created -> a Quickstatement file is created using Open Refine   
 ## Dataroundtriping
 * TBD SPA -> Wikidata
   *  we have a restriction n retrieving 10 000 objects see  
