@@ -1,7 +1,7 @@
 # SPA Wikidata
 * SPA has 2 API:s get [latest](https://portrattarkiv.se/endpoints/latest.php) and [search](https://portrattarkiv.se/endpoints/search.php) but no documentation
 * [spa2commons](https://commons.wikimedia.org/wiki/User:Salgo60/spa2commons3.js) is a javascript running in Wikicommons to make it easy to find pictures in SPA and upload them to Wikicommons 
-  * more than [4000 pictures uploaded first weeks](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons) / [sorted](https://petscan.wmflabs.org/?psid=20485153)
+  * more than [6000 pictures uploaded first weeks](https://commons.wikimedia.org/wiki/Category:Uploaded_with_spa2Commons) / [sorted](https://petscan.wmflabs.org/?psid=20485153)
      * [candidates for uploading pictures](https://sv.wikipedia.org/wiki/Anv%C3%A4ndare:Salgo60/Listeria/SvensktPortr%C3%A4ttarkiv/utanbild)  
   * see also [video](https://youtu.be/aCPzWF0aYmw) (english) / [swedish](https://www.youtube.com/watch?v=dQuoJOC3eSY) [swedish video2](https://www.youtube.com/watch?v=8hngWUoNXhE)
 * notebooks are used to check if people in Wikidata on e.g. a cemetery has good candidates in SPA
