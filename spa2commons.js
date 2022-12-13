@@ -96,7 +96,7 @@ if ( ( mw.config.get( 'wgNamespaceNumber' ) === 0 || mw.config.get( 'wgNamespace
 [[Category:Swedish_Portrait_Archive]]
 `;
             license = 'cc-by-4.0';
-
+	    license = 'cc-zero';
     		//TODO
 			var href = `${uploadPage}?wpUploadDescription=${encodeURIComponent(summary)}&wpLicense=${license}&wpDestFile=${targetName}&wpSourceType=url&wpUploadFileURL=${original}`;
 
