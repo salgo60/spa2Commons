@@ -38,6 +38,15 @@ Because the environment is set up I have used PAWS for
      * 2021-12-03 [6617 files](https://wcqs-beta.wmflabs.org/embed.html#SELECT%20%28count%28%3Fitem%29%20as%20%3FTotalSPAID%29%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP4819%20%3FSPAid.%0A%20%20OPTIONAL%20%7B%3Fitem%20wdt%3AP180%20%3FdepictsWD%7D%0A%20%20BIND%28URI%28CONCAT%28%22https%3A%2F%2Fportrattarkiv.se%2Fdetails%2F%22%2C%3FSPAid%29%29%20AS%20%3FSPA%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%7D%0A%7D%20order%20by%20%3FitemLabel), SPA and WD depict [6551 files](https://wcqs-beta.wmflabs.org/embed.html#SELECT%20%28count%28%3Fitem%29%20as%20%3FTotalSPAidAndDepict%29%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP4819%20%3FSPAid.%0A%20%20%3Fitem%20wdt%3AP180%20%3FdepictsWD.%0A%20%20BIND%28URI%28CONCAT%28%22https%3A%2F%2Fportrattarkiv.se%2Fdetails%2F%22%2C%3FSPAid%29%29%20AS%20%3FSPA%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%2Cen%22.%20%7D%0A%7D%20order%20by%20%3FitemLabel), Wikidata <-> SPA [5668 WD objects ](https://w.wiki/4LqQ)
   * Wikicommons SDC solution is in Beta and updated weekly see [wlatest update](https://tinyurl.com/y4ncctxc) SPA and depicts = 
  
+### Find WD objects without a picture and check with SPA
+SPA and WD has semantic interoperability in some sense BUT we need to start match
+* see [notebook](https://github.com/salgo60/spa2Commons/blob/main/Notebook/Litteraturbanken%20SPA.ipynb) that 
+  * checks people in WD connected to Litteraturbanken with no picture
+  * does a look up in SPA for good candidates
+
+[<img width="1258" alt="image" src="https://user-images.githubusercontent.com/14206509/210227440-3b5fefa7-857d-4192-9528-f90b6dd1867b.png">](https://github.com/salgo60/spa2Commons/blob/main/Notebook/Litteraturbanken%20SPA.ipynb)
+
+
 # Find SPA same as Wikipedia
 some pictures in SPA have same as Wikipedia. We use the API to find those pictures and checks if in Wikidata [Property:P4819](https://www.wikidata.org/wiki/Property:P4819) is set see [list of Wikidata persons with Property:P4819 set but no pictures](https://sv.wikipedia.org/wiki/Anv%C3%A4ndare:Salgo60/Listeria/SvensktPortr%C3%A4ttarkiv/utanbild)
   * limitations is we can just retrieve 10 000 records from SPA 
