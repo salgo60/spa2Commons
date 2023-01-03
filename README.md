@@ -58,7 +58,15 @@ some pictures in SPA have same as Wikipedia. We use the API to find those pictur
 * video in english [how the API works](https://youtu.be/z9RQqvuwT_g) 
 * use [Wikidata:Entity_Explosion](https://www.wikidata.org/wiki/Wikidata:Entity_Explosion) to better see API etc. see [video](https://www.youtube.com/watch?v=D4MB6xX6Mig&feature=youtu.be) 
 * video use [Wikidata/FamilyTree](https://youtu.be/mtRW3qkjaOw) se [mallen](https://www.wikidata.org/wiki/Template:Wikidata/FamilyTree)
-* [Mix-and Match 4837](https://mix-n-match.toolforge.org/#/catalog/4837 ) - catalog for m atchiung SPA with Wikidata 
+* [Mix-and Match 4837](https://mix-n-match.toolforge.org/#/catalog/4837 ) - catalog for attaching SPA with Wikidata 
+* [WD Gravstensinventeringen projekt](https://github.com/salgo60/Gravstensinventeringen-Wikidata) där kyrkogårdar kopplas till Wikidata och sedan kan man se vilka personer på en kyrkogård som saknar bild och söka mot SPA se Notebook [video](https://www.youtube.com/watch?v=j-OhaeNshhE)
+  * [Notebook WD <-> SPA kandidater](https://github.com/salgo60/spa2Commons/blob/main/Notebook/SPA%20cemetery.ipynb)
+     * Exempel hur en kandidat presenteras med Ranking
+
+<img width="1260" alt="image" src="https://user-images.githubusercontent.com/14206509/210300100-7f57f027-4ad7-4f76-b6ba-9593c0b33bad.png">
+
+     * [Blog om Gamla Gävle Begravningsplats](http://minancestry.blogspot.com/2020/03/gavle.html) i Wikidata
+
 # Todo #
 
 * [X] need to be in the whitelist for uploading see [T290581](https://phabricator.wikimedia.org/T290581)
