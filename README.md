@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11183856.svg)](https://doi.org/10.5281/zenodo.11183856)
+* [skuggbacklog](https://github.com/salgo60/spa2Commons/issues/15)
 # SPA Wikidata
 * SPA has 2 API:s get [latest](https://portrattarkiv.se/endpoints/latest.php) and [search](https://portrattarkiv.se/endpoints/search.php) but no documentation
 * [spa2commons](https://commons.wikimedia.org/wiki/User:Salgo60/spa2commons3.js) is a javascript running in Wikicommons to make it easy to find pictures in SPA and upload them to Wikicommons 
