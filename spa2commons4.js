@@ -99,6 +99,7 @@ if ( ( mw.config.get( 'wgNamespaceNumber' ) === 0 || mw.config.get( 'wgNamespace
 
             // Choose the appropriate license
             license = 'cc-by-4.0'; // Set this to the appropriate license for your use case
+            license = 'PD-Sweden-photo'; // use https://commons.wikimedia.org/wiki/Template:PD-Sweden-photo
             // Construct the upload URL
             href = `${uploadPage}?wpUploadDescription=${encodeURIComponent(summary)}&wpLicense=${license}&wpDestFile=${targetName}&wpSourceType=url&wpUploadFileURL=${original}`;
 
